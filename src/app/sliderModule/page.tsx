@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState, useRef } from "react";
 import useSliderStore from "../store/sliderStore";
 import Select from "../../components/select";
