@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Image Slider with Next.js
+
+This project is a responsive image slider built using **Next.js 14.0.2**. It features dynamic item rendering, control points (dots), and navigation buttons (Previous and Next). The slider supports customizable items per slide and uses **RemixIcon** for icons, **Google Fonts** for typography, and **Lorem Picsum** for placeholder images.
+
+
+## Features
+
+- **Dynamic Slider Items**: The slider items are passed via props, and the slider dynamically adjusts based on the number of items.
+- **Items Per Slide**: Users can customize the number of items displayed per slide.
+- **Responsive Design**: The slider adapts to different screen sizes (mobile, tablet, desktop).
+- **Control Points (Dots)**: Dots indicate the current slide and allow users to navigate between slides.
+- **Navigation Buttons**: Previous and Next buttons for manual navigation.
+- **Auto Play**: The slider automatically transitions between slides at a configurable interval.
+- **Keyboard Navigation**: Users can navigate the slider using the arrow keys (`ArrowLeft` and `ArrowRight`).
+- **Customizable Fonts**: Uses **Google Fonts** (`Poppins` and `Permanent Marker`) for typography.
+- **Icons**: Uses **RemixIcon** for the Previous and Next buttons.
+
+
+## Technologies Used
+
+- **Next.js 14.0.2**: React framework for server-side rendering and static site generation.
+- **React**: JavaScript library for building user interfaces.
+- **RemixIcon**: Open-source icon library for high-quality icons.
+- **Google Fonts**: `Poppins` and `Permanent Marker` fonts for typography.
+- **Lorem Picsum**: Placeholder images for the slider.
+- **TypeScript**: For type safety and better developer experience.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up and run the project locally.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (v18 or higher)
+- npm (v9 or higher)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Clone the repository**:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+git clone https://github.com/mesanjib-tharu/carousel
+cd carosel
 
-## Learn More
+### Installation
+npm install 
 
-To learn more about Next.js, take a look at the following resources:
+### Run the development server:
+npm nun dev 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Open the application:
+Visit http://localhost:3000
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

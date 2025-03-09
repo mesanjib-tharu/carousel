@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import Slider from "./sliderModule/page";
+import Slider from "../components/Slider";
 import useSliderStore from "./store/sliderStore";
 import data from "../data/caroselData.json";
 import { Poppins, Permanent_Marker } from "next/font/google";
