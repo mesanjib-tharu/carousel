@@ -1,0 +1,88 @@
+
+{
+    "slides":[
+        {
+            "name":"John Smith",
+            "src":"https://picsum.photos/seed/image1/600/400?blur",
+            "alt":"carousel image one slider"
+        },
+        { 
+            "name":"Emma Johnson",
+            "src":"https://picsum.photos/seed/image2/600/400",
+            "alt":"carousel image two slider"
+        },
+        {
+            "name":"Michael Brown",
+            "src":"https://picsum.photos/seed/image3/600/400",
+            "alt":"carousel image three slider"
+        },
+        {
+            "name":"Sophia Wilson",
+            "src":"https://picsum.photos/seed/image3/600/400",
+            "alt":"carousel image three slider"
+            
+        },
+        {
+            "name":"Sophia Wilson",
+            "src":"https://picsum.photos/id/1/200/300",
+            "alt":"image"
+        },
+        {
+            "name":"Daniel Clark",
+            "src":"https://picsum.photos/seed/image1/600/400?blur",
+            "alt":"carousel image one slider"
+        },
+        {
+            "name":"William Taylor",
+            "src":"https://picsum.photos/seed/image2/600/400",
+            "alt":"carousel image two slider"
+        },
+        {
+            "name":"William Taylor",
+            "src":"https://picsum.photos/seed/image3/600/400",
+            "alt":"carousel image three slider"
+        },
+        {
+            "name":"William Taylor",
+            "src":"https://picsum.photos/seed/image3/600/400",
+            "alt":"carousel image three slider"
+            
+        },
+        {
+            "name":"William Taylor",
+            "src":"https://picsum.photos/id/1/200/300",
+            "alt":"image"
+        },
+        {
+            "name":"William Taylor",
+            "src":"https://picsum.photos/seed/image1/600/400?blur",
+            "alt":"carousel image one slider"
+        },
+        {
+            "name":"William Taylor",
+            "src":"https://picsum.photos/seed/image2/600/400",
+            "alt":"carousel image two slider"
+        },
+        {
+            "name":"William Taylor",
+            "src":"https://picsum.photos/seed/image3/600/400",
+            "alt":"carousel image three slider"
+        },
+        {
+            "name":"William Taylor",
+            "src":"https://picsum.photos/seed/image3/600/400",
+            "alt":"carousel image three slider"
+            
+        },
+        {
+            "name":"William Taylor",
+            "src":"https://picsum.photos/id/1/200/300",
+            "alt":"image"
+        },
+        {
+            "name":"William Taylor",
+            "src":"https://picsum.photos/seed/image3/600/400",
+            "alt":"carousel image three slider"
+        }
+    ]
+}
