@@ -16,7 +16,9 @@ const permanentMarker = Permanent_Marker({
   weight: "400",
 });
 
-const Slider = ({ items }: { items: object[] }) => {
+type ItemType = { name: string; src: string, alt: string }; 
+
+const Slider = ({ items }: { items: ItemType[] }) => {
   const { itemsPerSlide, setItemsPerSlide, autoPlayInterval } = useSliderStore();
   const [currentIndex, setCurrentIndex] = useState(0);
   const totalSlides = Math.ceil(items.length / itemsPerSlide);
