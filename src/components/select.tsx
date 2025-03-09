@@ -1,12 +1,12 @@
 import React, { useRef, useEffect } from "react";
 
 interface SelectProps {
-  handleSelect: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
+  handleSelect: (e: React.ChangeEvent<HTMLSelectElement>) => void; // Return void
   selected: number;
 }
 
 const Select: React.FC<SelectProps> = ({ handleSelect, selected }) => {
-  const limitButtonRef = useRef<HTMLTextAreaElement | null>(null);
+  const limitButtonRef = useRef<HTMLSelectElement | null>(null);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -27,7 +27,7 @@ const Select: React.FC<SelectProps> = ({ handleSelect, selected }) => {
   return (
     <select
       ref={limitButtonRef}
-      className={` border px-4 py-1 border-gray-300 rounded-md text-gray-700 focus:outline-none focus:none focus:none cursor-pointer `}
+      className={`border px-4 py-1 border-gray-300 rounded-md text-gray-700 focus:outline-none focus:none focus:none cursor-pointer`}
       onChange={handleSelect}
       value={selected}
     >

@@ -87,7 +87,7 @@ const Slider = ({ items }: SliderProps) => {
     setCurrentIndex((prev) => (prev - 1 + totalSlides) % totalSlides);
   };
 
-  const handleSelect = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+  const handleSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setLimit(parseInt(e.target.value));
   };
 
